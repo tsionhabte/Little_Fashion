@@ -1,0 +1,12 @@
+{
+  "name": "Little_Fashion",
+  "version": "1.0.0",
+  "description": "A project for managing CSS with npm",
+  "scripts": {
+    "build": "node-sass src/styles/main.scss dist/styles/main.css",
+    "watch": "node-sass src/styles/main.scss dist/styles/main.css --watch"
+  },
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}
